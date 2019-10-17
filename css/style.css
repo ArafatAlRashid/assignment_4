@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+
+}
+
+.container{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+	padding: 55px 0;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
+	
+}
+
+.nav{
+	width: 75%;
+	float: right;
+}
+
+.nav ul{
+	text-align: right;
+	list-style-type: none;
+	padding-top: 43px;
+}
+
+.nav ul li{
+	display: inline-block;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #626262;
+	margin-left: 140px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+article{
+	margin-top: 100px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.text1{
+	text-transform: uppercase;
+	color: #c7c1b6;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.text2{
+	color: #626262;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.text3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	margin-top: 55px;
+}
+
+.text3 a{
+	text-decoration: none;
+	color: #C2BCB0;
+}
+
+.service_top{
+	margin-top: 135px;
+	margin-bottom: 125px;
+}
+
+.service1{
+	width: 45%;
+	display: inline-block;
+	margin: 50px 0;
+}
+
+.pic{}
+
+.pic img{
+	width: 100%;
+}
+
+.txt{}
+
+.txt p{
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	color: #C2BCB0;
+}
+
+.txt1{}
+
+.txt1 h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: normal;
+	color: #626262;
+}
+
+.txt3{}
+
+.txt3 p{
+	font-family: 'Playfair Display', serif;
+}
+
+.service1:nth-child(even){
+	margin-left: 103px;
+}
+
+.newsletter {
+	background-color: #F0F0F0;
+	min-height: 350px;
+	text-align: center;
+}
+
+.wrapper2{
+}
+.form1{
+	padding-top: 75px;
+}
+
+.form1 h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #333333;
+}
+.form2{
+	padding-top: 75px;
+}
+
+.form2 input{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	width: 30%;
+	padding: 0 0 5px;
+
+}
+
+button{
+	border: none;
+	background: none;
+	position: relative;
+	bottom: 25px;
+	left: 187px;
+}
